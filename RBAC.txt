@@ -1,0 +1,21 @@
+RBAC: ROLE BASE ACCESS CONTROL
+
+in real time to restrict the access for jenkins console we use rbac.
+with rbac we can give set of limited permissions for user.
+
+1. user:
+dashboard -- > manage jenkins -- > users -- > create user (ramesh, suresh)
+
+2. Plugin: 
+Dashboard -- > Manage Jenkins -- >Plugins -- >available plugin  -- >Role-based Authorization Strategy -- >install
+
+3. configure:
+Dashboard -- > Manage Jenkins -- >security -- > security -- > Authorization -- > Role-based Authorization -- > save
+
+4. manage and assign roles
+
+Dashboard -- > Manage Jenkins -- >Manage and Assign Roles -- > Manage Role
+role1: fresher -- > read
+role2: exp -- > admin
+
+ASSIGN ROLES
